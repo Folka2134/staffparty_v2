@@ -1,11 +1,13 @@
-import "./App.css";
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import MusicPage from "./components/MusicPage";
 
 function App() {
   return (
-    <div className="bg-background min-h-screen min-w-[350px]">
+    <div className="min-w-[350px] bg-background">
+      <Header />
       <Navbar />
-      <main></main>
+      <MusicPage />
     </div>
   );
 }
